@@ -58,6 +58,8 @@ export const CardInfoContainer = styled.div`
 export const CardInfo = styled.span`
   background-color: ${colors.salmon};
   color: ${colors.darkBg};
+  font-size: 12px;
+  text-transform: capitalize;
   padding: 6px 4px;
   margin-left: 8px;
 `

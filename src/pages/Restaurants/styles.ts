@@ -3,6 +3,6 @@ import styled from 'styled-components'
 export const CardContainer = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 40px;
+  gap: 32px;
   margin-top: 56px;
 `

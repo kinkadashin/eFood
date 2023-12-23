@@ -4,10 +4,8 @@ import { colors } from '../../styles'
 export const Card = styled.div`
   background-color: ${colors.salmon};
   width: 320px;
-  margin-bottom: 32px;
   color: ${colors.darkBg};
   font-size: 14px;
-  margin-top: 56px;
 `
 
 export const CardContent = styled.div`
@@ -59,6 +57,10 @@ export const OpenCardInfo = styled.div`
       width: 16px;
       height: 16px;
       cursor: pointer;
+      margin: 0;
+      position: absolute;
+      top: 8px;
+      right: 8px;
     }
   }
 `
@@ -69,7 +71,7 @@ export const Modal = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1;
+  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: center;

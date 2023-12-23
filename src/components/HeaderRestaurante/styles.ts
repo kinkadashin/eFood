@@ -7,10 +7,20 @@ export const HeaderContainer = styled.div`
   align-items: center;
 `
 
-export const HeaderText = styled.p`
+export const HeaderText = styled.a`
   color: ${colors.salmon};
   font-size: 18px;
   font-weight: 900;
+  text-decoration: none;
+
+  button {
+    border: none;
+    background-color: transparent;
+    color: ${colors.salmon};
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+  }
 `
 
 export const Header = styled(Background)`

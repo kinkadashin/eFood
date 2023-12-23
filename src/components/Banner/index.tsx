@@ -1,4 +1,10 @@
-import { BannerBg, BannerSubTitle, BannerTitle } from './styles'
+import {
+  BannerBg,
+  BannerSubTitle,
+  BannerTitle,
+  BannerContainer,
+  BannerGlobal
+} from './styles'
 
 type Props = {
   cover: string
@@ -7,14 +13,14 @@ type Props = {
 }
 
 const Banner = ({ cover, title, type }: Props) => (
-  <div>
+  <BannerGlobal>
     <BannerBg style={{ backgroundImage: `url(${cover})` }}>
-      <div className="container">
+      <BannerContainer className="container">
         <BannerSubTitle>{type}</BannerSubTitle>
         <BannerTitle>{title}</BannerTitle>
-      </div>
+      </BannerContainer>
     </BannerBg>
-  </div>
+  </BannerGlobal>
 )
 
 export default Banner

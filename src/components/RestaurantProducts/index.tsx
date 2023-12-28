@@ -42,7 +42,7 @@ const RestaurantProducts = ({ product }: Props) => {
             {getDescription(product.descricao, 110)}
           </S.CardDescription>
           <S.CardButton type="button" onClick={() => setOpenModal(true)}>
-            Mais detalhes
+            Adicionar ao carrinho
           </S.CardButton>
         </S.CardContent>
       </S.Card>

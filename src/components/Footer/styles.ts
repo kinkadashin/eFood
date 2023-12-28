@@ -9,20 +9,19 @@ export const Container = styled.div`
   ul {
     display: flex;
     justify-content: center;
-    li {
-      padding-right: 8px;
-    }
+    gap: 8px;
   }
 `
 
 export const Logo = styled.img`
   margin-top: 40px;
-  margin-bottom: 32px;
+  margin-bottom: 32.5px;
 `
 
 export const Description = styled.p`
   color: ${colors.salmon};
   font-size: 10px;
-  width: 480px;
-  margin: 80px auto;
+  max-width: 480px;
+  margin: 80px auto 40px;
+  font-weight: 400;
 `

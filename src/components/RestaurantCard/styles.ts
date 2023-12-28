@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'
 export const Card = styled.div`
   background-color: ${colors.white};
   border: 1px solid ${colors.salmon};
-  margin-bottom: 48px;
 `
 
 export const Description = styled.div`
